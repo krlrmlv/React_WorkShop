@@ -5,7 +5,7 @@ export default class Post extends Component {
     render() {
         return (
             <div className="post">
-                <User src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Wiki-analsex.png" alt="anal" name="analsex" min />
+                <User src="https://medialeaks.ru/wp-content/uploads/2017/10/catbread-03-600x400.jpg" alt="Name" name="Name" min />
                 <img src={this.props.src} alt={this.props.alt} />
                 <div className="post__name">
                     User 

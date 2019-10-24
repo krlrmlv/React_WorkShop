@@ -5,14 +5,14 @@ export default class Users extends Component {
     render() {
         return (
             <div className="right">
-                <User src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Wiki-analsex.png" alt="anal" name="analsex" />
+                <User src="https://medialeaks.ru/wp-content/uploads/2017/10/catbread-03-600x400.jpg" alt="Name" name="Name" />
 
                 <div className="users__block">
 
-                      <User src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Wiki-analsex.png" alt="anal" name="analsex" min />
-                      <User src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Wiki-analsex.png" alt="anal" name="analsex" min />
-                      <User src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Wiki-analsex.png" alt="anal" name="analsex" min />
-                      <User src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Wiki-analsex.png" alt="anal" name="analsex" min />
+                      <User src="https://medialeaks.ru/wp-content/uploads/2017/10/catbread-03-600x400.jpg" alt="Name" name="Name" min />
+                      <User src="https://medialeaks.ru/wp-content/uploads/2017/10/catbread-03-600x400.jpg" alt="Name" name="Name" min />
+                      <User src="https://medialeaks.ru/wp-content/uploads/2017/10/catbread-03-600x400.jpg" alt="Name" name="Name" min />
+                      <User src="https://medialeaks.ru/wp-content/uploads/2017/10/catbread-03-600x400.jpg" alt="Name" name="Name" min />
                 </div>
             </div>
         )
