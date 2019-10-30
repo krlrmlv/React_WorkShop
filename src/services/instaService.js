@@ -20,12 +20,24 @@ export default class instaService extends Component {
         return res;
     }
     
-    render() {
-        return (
-            <div>
-            
-            </div>
-            )
+    
+    getAllPhotos  = async () =>{
+        const res = await this.getResourse("/posts/");
+        return res.map(this._transformPosts)
+    }
+    
+    _transformPosts = (post) =>{
+        return{
+            src : post.src,
+            alt : post.alt,
         }
     }
     
+    // render() {
+    //     return (
+    //         <div>
+    
+    //         </div>
+    //         )
+    //     }
+}
